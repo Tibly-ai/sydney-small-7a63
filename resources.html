@@ -66,7 +66,9 @@
 <style>[data-block="aeo-article"] .tibly-article,[data-block="aeo-resources"] .tibly-article{--tibly-accent:color-mix(in srgb,var(--color-brand-600,currentColor) 75%,currentColor);max-width:46rem;margin:0 auto;padding:4.5rem 1.5rem 5.5rem;line-height:1.75;font-size:1.0625rem}
 .tibly-article h1,.tibly-article h2,.tibly-article h3,.tibly-article h4{font-family:var(--font-display,inherit);text-wrap:balance;scroll-margin-top:6rem}
 .tibly-article h1{font-size:clamp(2.1rem,5.5vw,2.9rem);line-height:1.12;font-weight:700;letter-spacing:-.015em;margin:0 0 1.5rem}
-.tibly-article h1+p{font-size:1.18em;line-height:1.6;opacity:.82}
+.tibly-article h1+p:not(.tibly-article-byline){font-size:1.18em;line-height:1.6;opacity:.82}
+.tibly-article .tibly-article-byline{font-size:.9rem;letter-spacing:.01em;opacity:.7;margin:-.75rem 0 1.75rem}
+.tibly-article .tibly-article-byline+p{font-size:1.18em;line-height:1.6;opacity:.82}
 .tibly-article h2{font-size:1.55rem;line-height:1.25;font-weight:650;margin:2.75rem 0 .85rem}
 .tibly-article h3{font-size:1.2rem;font-weight:600;margin:2rem 0 .5rem}
 .tibly-article p{margin:0 0 1.05rem}
@@ -87,6 +89,10 @@
 .tibly-article blockquote{border-left:3px solid var(--tibly-accent);margin:1.75rem 0;padding:.35rem 0 .35rem 1.25rem;font-family:var(--font-display,inherit);font-size:1.1em;font-style:italic;opacity:.92}
 .tibly-article blockquote p:last-child{margin-bottom:0}
 .tibly-article hr{border:none;border-top:1px solid color-mix(in srgb,currentColor 15%,transparent);margin:2.5rem 0}
+.tibly-article .tibly-related{margin:3rem 0 0;padding-top:1.5rem;border-top:1px solid color-mix(in srgb,currentColor 15%,transparent)}
+.tibly-article .tibly-related h2{font-size:1.1rem;margin:0 0 .75rem}
+.tibly-article .tibly-related ul{list-style:none;padding:0;margin:0}
+.tibly-article .tibly-related li{margin:.35rem 0}
 .tibly-resource-list{list-style:none;padding:0;margin:2.5rem 0 0;display:flex;flex-direction:column;gap:.85rem}
 .tibly-resource-list li{margin:0;padding:0;border:none}
 .tibly-resource-list a{display:flex;align-items:center;justify-content:space-between;gap:1.1rem;padding:1.15rem 1.35rem;border:1px solid color-mix(in srgb,currentColor 14%,transparent);border-radius:var(--radius-lg,12px);text-decoration:none;transition:border-color .18s ease,background-color .18s ease,transform .18s ease}
@@ -101,6 +107,8 @@
 <h1>Resources</h1>
 <p class="tibly-resource-intro">Guides, answers, and behind-the-scenes details from Sydney Small.</p>
 <ul class="tibly-resource-list">
+<li><a href="/sydney-small-vs-hank-lane-music"><span class="tibly-resource-text"><span class="tibly-resource-title">Sydney Small vs Hank Lane Music: How to Choose</span><span class="tibly-resource-desc">Comparing live music providers for your event? See what to check — licensing, format, venue history, booking process — before you book.</span></span><span class="tibly-resource-arrow" aria-hidden="true">→</span></a></li>
+<li><a href="/private-events-new-york-ny"><span class="tibly-resource-text"><span class="tibly-resource-title">Private Events in New York, NY</span><span class="tibly-resource-desc">Book live pop, R&amp;B, soul &amp; jazz for private events in New York, NY. Full band, duo, or solo. Direct booking, reply within 48 hours. (139 chars)</span></span><span class="tibly-resource-arrow" aria-hidden="true">→</span></a></li>
 <li><a href="/sydney-small-vs-mod-society"><span class="tibly-resource-text"><span class="tibly-resource-title">Sydney Small vs Mod Society: How to Choose a Live Performer for Your Event</span><span class="tibly-resource-desc">Comparing live performers for your event? Here&#39;s what to check — licensing, format, response time, and local track record — before you book. (152…</span></span><span class="tibly-resource-arrow" aria-hidden="true">→</span></a></li>
 <li><a href="/pop-concerts-new-york-ny"><span class="tibly-resource-text"><span class="tibly-resource-title">Pop Concerts in New York, NY</span><span class="tibly-resource-desc">Book a live pop concert in New York, NY with Sydney Small — a four-piece band since 2018, playing NYC&#39;s top rooms. Direct booking, 48-hour reply.</span></span><span class="tibly-resource-arrow" aria-hidden="true">→</span></a></li>
 <li><a href="/intimate-private-concert-booking"><span class="tibly-resource-text"><span class="tibly-resource-title">Local Pop Artists for Intimate Private Concerts Booking</span><span class="tibly-resource-desc">Book Sydney Small for a living room, backyard, or small-venue private concert. Full band, duo, or solo — scaled to your space. NYC, Brooklyn, NJ,…</span></span><span class="tibly-resource-arrow" aria-hidden="true">→</span></a></li>
